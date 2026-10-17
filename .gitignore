@@ -1,0 +1,9 @@
+# never commit a real swarm config or secrets
+swarm.env
+*.env
+!swarm.env.example
+.secrets/
+*.key
+*.pem
+__pycache__/
+*.pyc
